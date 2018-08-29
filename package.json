@@ -1,0 +1,26 @@
+{
+  "name": "merge-pkgjson",
+  "version": "0.0.1",
+  "description": "merge package.json",
+  "main": "analyze.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyBob/pkgJson-merge.git"
+  },
+  "keywords": [
+    "package.json",
+    "merge"
+  ],
+  "author": "sunnyBob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunnyBob/pkgJson-merge/issues"
+  },
+  "homepage": "https://github.com/sunnyBob/pkgJson-merge#readme",
+  "bin": {
+    "pkg-merge": "./bin/pkg-merge.js"
+  },
+  "dependencies": {
+    "commander": "^2.17.1"
+  }
+}
